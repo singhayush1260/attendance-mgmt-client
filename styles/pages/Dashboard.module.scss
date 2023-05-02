@@ -1,0 +1,80 @@
+.header{
+    margin: 4vh;
+    h2{
+        display: inline-block;
+    }
+}
+
+.user_details{
+    margin: 10vh;
+}
+
+.attendence_div{
+    margin: 3vh;
+    h2{
+        margin: 2vh;
+    }
+    .attendence_details{
+        margin: 5vh 1vh;
+        display: flex;
+        flex-wrap: wrap;
+        div{
+            max-width: 50%;
+            width: 45%;
+            margin: 0 2vh;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            input{
+                margin: 1vh;
+            }
+        }
+    }
+}
+
+.function_buttons{
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        margin: 2px;
+        padding: 1vh;
+    }
+}
+
+.color_scheme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        margin: 2vh 1vh 2vh 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+            flex-grow: 1;
+        }
+        div{
+            flex-grow: 1;
+            width: 3vh;
+            height: 3vh;
+        }
+    }
+}
+
+.dateWise_attendece{
+    margin: 1vh 2vh;
+    h2{
+        margin: 2vh;
+    }
+    .date_div{
+        margin: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        *{
+            margin: 1vh 2vh;
+        }
+    }
+}
